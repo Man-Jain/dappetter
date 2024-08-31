@@ -8,12 +8,7 @@
     "metamask",
     "dist"
   ],
-  "scripts": {
-    "postinstall": "npx rimraf node_modules/**/**/.git",
-    "build": "tsc",
-    "prepare": "npm run build",
-    "test": "mocha -r ts-node/register test/test.ts --timeout=200000 --exit"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/sriharikapu/dappetter"
@@ -46,6 +41,6 @@
     "puppeteer": "^5.5.0"
   },
   "devDependencies": {
-    "@types/node":"14.14.31"
+    "@types/node": "14.14.31"
   }
 }
